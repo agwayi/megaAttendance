@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/register.css" />
+    <title>Register Your Account</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="inner-div">
+        <div class="header">
+          <p>Register Your Account</p>
+          <img src="/images/logo-dark.png" alt="" />
+        </div>
+        <form class="registration-form">
+          <div class="info">
+            <label for="fullname">Full Name</label>
+            <input
+              type="text"
+              id="fullname"
+              placeholder="Enter your full name"
+              required
+            />
+          </div>
+
+          <div class="info">
+            <label for="matric">Matric</label>
+            <input
+              type="text"
+              id="matric"
+              placeholder="Enter your matric number"
+              required
+            />
+          </div>
+
+          <div class="info">
+            <label for="dept">Dept</label>
+            <select id="dept" required>
+              <option value="">Select a department</option>
+              <option value="Software Engineering">Software Engineering</option>
+              <option value="Computer Science">Computer Science</option>
+              <option value="ICT">ICT</option>
+              <option value="Cyber Security">Cyber Security</option>
+            </select>
+          </div>
+
+          <div class="info">
+            <label for="faculty">Faculty</label>
+            <select id="faculty" required>
+              <option value="Faculty of Computing">Faculty of Computing</option>
+            </select>
+          </div>
+
+          <div class="info">
+            <label for="place-of-it">Place of IT (Alihame/Town)</label>
+            <select id="place-of-it" required>
+              <option value="">Select a place</option>
+              <option value="Alihame">Alihame</option>
+              <option value="Town">Town</option>
+            </select>
+          </div>
+
+          <div class="info">
+            <label for="registration-date">Registration Date</label>
+            <input type="date" id="registration-date" required />
+          </div>
+
+          <div class="info">
+            <label for="password">Password</label>
+            <input
+              type="password"
+              id="password"
+              placeholder="Enter your password"
+              required
+            />
+          </div>
+
+          <button type="submit" class="submit-btn">Register</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
