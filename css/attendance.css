@@ -31,7 +31,7 @@
   margin-top: 20px;
   padding: 20px;
   border-radius: 10px;
-  border: 2px solid var(--secondary-color);
+  border: 0.5px solid var(--secondary-color);
 }
 
 .form-box h2 {
@@ -41,7 +41,7 @@
 
 .row {
   display: flex;
-  gap: 35px;
+  gap: 25px;
   margin-bottom: 15px;
 }
 
@@ -60,7 +60,7 @@ input,
 select {
   width: 100%;
   padding: 10px;
-  border: 2px solid var(--secondary-color);
+  border: 1px solid var(--secondary-color);
   border-radius: 6px;
   font-size: 14px;
 }
@@ -109,7 +109,7 @@ select:focus {
   margin-top: 20px;
   padding: 20px;
   border-radius: 10px;
-  border: 2px solid var(--secondary-color);
+  border: 0.5px solid var(--secondary-color);
 }
 
 .table-box h2 {
